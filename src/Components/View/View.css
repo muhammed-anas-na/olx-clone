@@ -1,0 +1,54 @@
+.viewParentDiv {
+  padding-top: 4em;
+  display: flex;
+}
+.viewParentDiv .imageShowDiv {
+  padding: 16px;
+  width: 70vw;
+}
+.viewParentDiv .imageShowDiv img {
+  width: 65vw;
+  height: 85vh;
+}
+
+.viewParentDiv .rightSection {
+  padding: 16px;
+  margin-top: 3em;
+  width: 30vw;
+}
+
+.viewParentDiv .rightSection .productDetails p {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #002f34;
+  font-size: 34px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.viewParentDiv .rightSection .productDetails , .viewParentDiv .rightSection .contactDetails  {
+  border: 1px solid rgb(147, 145, 145);
+  background-color: rgb(147, 145, 145);
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  width: 90%;
+  box-shadow: 10px 10px;
+}
+.heading{
+  text-shadow: 2px 2px white;
+}
+
+
+.viewParentDiv .rightSection .contactDetails :first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #002f34;
+  font-weight: 400;
+  padding: 0;
+}
+.shimmerCard{
+  margin-top: 70px;
+  width: 100;
+}
